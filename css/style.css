@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 6.25rem;
+
+}
+header div img{
+    width: 5rem;
+    
+
+}
+.barra-nav{
+    background-color: antiquewhite;
+    height: 6.25rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.barra-nav div nav ul{
+    display: flex;
+    margin: 3.125rem;
+    list-style: none;
+    justify-content: space-between;
+    gap: 7.5rem;
+}
+.barra-nav div nav ul li{
+    text-decoration: none;
+    font-size: large;
+}
+
+.inicio{
+    background-image: url(../assets/\ banner-inicio2.jpg);
+    height: 37.5rem;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items div{
+    width: 20%;
+}
+
+.items img{
+    width: 100%;
+}
+
+.cont-nosotros h1{
+    background-image: url(../assets/arnaud-mesureur-17OxKyThYPo-unsplash.jpg);
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    padding-top: 100px;
+}
+.nosotros{
+    width: 100%;
+    display: flex;
+    padding-top: 100px;
+}
+.nosotros div {
+    width: 50%;
+    margin: 150px;
+    ;
+}
+
+.nosotros div img{
+    width: 100%;
+}
+
+.tienda{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 6.25rem 9.375rem 6.25rem 9.375rem;
+    justify-content: center;
+}
+.articulo1{
+
+}
+.articulo1 img{
+    width: 12.5rem;
+    padding: 1.25rem;
+}
+.articulo2{
+
+}
+.articulo2 img{
+    width: 12.5rem;
+    padding: 1.25rem;
+}
+.articulo3{
+
+}
+.articulo3 img{
+    width: 12.5rem;
+    padding: 1.25rem;
+}
+.articulo4{
+
+}
+.articulo4 img{
+    width: 12.5rem;
+    padding: 1.25rem;
+}
+.articulo5{
+
+}
+
+.articulo5 img{
+    width: 12.5rem;
+    padding: 1.25rem;
+}
+.articulo6{
+
+}
+
+.articulo6 img{
+    width: 12.5rem;
+    padding: 1.25rem;
+}
+.articulo7{
+    justify-content: center;
+}
+.articulo7 img{
+    width: 10.5rem;
+    padding: 1.25rem;
+    
+}
+.articulo8{
+    
+}
+.articulo8 img{
+    width: 12.5rem;
+    padding: 1.25rem;
+}
+
+.banner1{
+    background-image: url(../assets/\ banner-inicio2.jpg);
+    height: 37.5rem;
+    width: 100%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    padding-top: 6.25rem;
+    color: rgb(155, 114, 0);
+}
+
+.boton-desc{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.noticia{
+    display: flex;
+    height: 500px;
+}
+
+.not1{
+    background-image: url(../assets/noti1.jpeg);
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 240px;
+    color: rgb(230, 230, 230);
+    text-align: center;
+}
+.not2{
+    background-image: url(../assets/noti2.jpg);
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 240px;
+    color: rgb(78, 148, 138);
+    text-align: center;
+}
+
+.footer{
+    background-color: rgb(173, 248, 223);
+    height: 100px;
+    text-align: center;
+}
