@@ -1,0 +1,40 @@
+@media (max-width: 425px){
+    header{
+        height: 7.5rem;
+    }
+    .barra-nav{
+        height: 7.5rem;
+    }
+    .barra-nav nav ul{
+        gap: 0;
+        margin: 0;
+        padding: 1.25rem;
+    }
+    
+    header div img{
+        width: 3.75rem;
+        padding-top: 0;
+    }
+    .barra-nav nav ul li a{
+        font-size: medium;
+    }
+    .inicio{
+        background-image: url(../assets/banner-inicio2-425.jpg);
+        height: 25rem;
+    }
+    .inicio article h1{
+        font-size: large;
+    }
+    .inicio article h3{
+        font-size: small;
+    }
+    .items div h4{
+        font-size: medium;
+    }
+    .items div h5{
+        font-size: small;
+    }
+    .footer h4{
+        font-size: medium;
+    }
+}

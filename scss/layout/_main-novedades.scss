@@ -1,0 +1,47 @@
+.banner1{
+    background-image: url(../assets/banner-inicio2.jpg);
+    background-size: cover;
+    height: 37.5rem;
+    width: 100%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    padding-top: 6.25rem;
+    color: rgb(155, 114, 0);
+}
+
+.boton-desc{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.noticia{
+    display: flex;
+    height: 500px;
+}
+
+.not1{
+    background-image: url(../assets/noti1.jpeg);
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 240px;
+    color: rgb(230, 230, 230);
+    text-align: center;
+}
+.not2{
+    background-image: url(../assets/noti2.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 240px;
+    color: rgb(78, 148, 138);
+    text-align: center;
+}

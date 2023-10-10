@@ -1,0 +1,55 @@
+@media (max-width: 768px){
+    header{
+        height: 9.375rem;
+        display: flex;
+    }
+    .barra-nav{
+        background-color: antiquewhite;
+        height: 9.375rem;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    header div img{
+        width: 5rem;
+        padding-top: 0;
+    }
+    .barra-nav nav ul{
+        margin: 1rem;
+    }
+    .barra-nav nav ul li a{
+        font-size: large;
+    }
+    .inicio{
+        background-image: url(../assets/banner-inicio2-768.jpg);
+    }
+    .inicio article h1{
+        font-size: x-large;
+    }
+    .inicio article h3{
+        font-size: large;
+    }
+    .items{
+        flex-wrap: wrap;
+        padding: 1.875rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .items div{
+        width: 40%;
+        padding: 1.25rem;
+    }
+    .items img{
+        width: 80%;
+    }
+    .nosotros div{
+        margin: 4.375rem;
+    }
+    .nosotros div img{
+        width: 12.5rem;
+        height: 100%;
+    }
+    .footer h4{
+        font-size: large;
+    }
+}
