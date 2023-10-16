@@ -14,18 +14,16 @@
         font-family: monospace;
         font-size: xx-large;
         text-align: center;
-        padding-top: 12.5rem;
+        padding-top: map-get($tamano, xxxl);
     }
 }
 
 .boton1{
     display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+    @include flex(100%, center, center);
     img{
-        width: 6.25rem;
-        height: 6.25rem;
+        width: map-get($tamano, l);
+        height: map-get($tamano, l);
     }
     p{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -36,48 +34,42 @@
 
 .boton2{
     display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+    @include flex(100%, center, center);
     img{
-        width: 6.25rem;
-        height: 6.25rem;
+        width: map-get($tamano, l);
+        height: map-get($tamano, l);
     }
     p{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: large;
-        padding-left: 12.5rem
+        padding-left: map-get($tamano, xxxl);
     }
 }
 
 .boton3{
     display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+    @include flex(100%, center, center);
     img{
-        width: 6.25rem;
-        height: 6.25rem;
+        width: map-get($tamano, l);
+        height: map-get($tamano, l);
     }
     p{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: large;
-        padding-left: 12.5rem
+        padding-left: map-get($tamano, xxxl)
     }
 }
 
 .boton4{
     display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+    @include flex(100%, center, center);
     img{
-        width: 6.25rem;
-        height: 6.25rem;
+        width: map-get($tamano, l);
+        height: map-get($tamano, l);
     }
     p{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: large;
-        padding-left: 12.5rem
+        padding-left: map-get($tamano, xxxl)
     }
 }

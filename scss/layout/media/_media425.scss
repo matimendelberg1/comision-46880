@@ -28,12 +28,43 @@
     .inicio article h3{
         font-size: small;
     }
-    .items div h4{
-        font-size: medium;
+    .items{
+        div{
+            img{
+                height: 7.5rem;
+            }
+            .desc-prod{
+                font-size: small;
+            }
+            .precio-prod{
+                font-size: x-small;
+            }
+        }
     }
-    .items div h5{
-        font-size: small;
+    .cont-nosotros{
+        background-size: cover;
+        h1{
+            height: 25rem;
+        }
     }
+    .nosotros{
+        flex-wrap: wrap;
+        div{
+            margin: 4.375rem;
+            img{
+                width: 12.5rem;
+                height: 100%;
+            }
+            p{
+                padding-right: 1.875rem;
+            }
+        }
+    }
+
+    .tienda{
+        grid-template-columns: 1fr;
+    }
+
     .footer h4{
         font-size: medium;
     }

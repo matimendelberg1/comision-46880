@@ -6,20 +6,25 @@
         padding: 1.875rem;
         justify-content: center;
         align-items: center;
+        div{
+            width: 40%;
+            img{
+                height: 6.25rem;
+            }
+            .desc-prod{
+                font-size: small;
+            }
+            .precio-prod{
+                font-size: x-small;
+            }
+        }
     }
-    .items div{
-        width: 40%;
-    }
-    .items img{
-        width: 60%;
-    }
-    .items div h4{
-        font-size: small;
-    }
-    .items div h5{
-        font-size: x-small;
-    }
-    .footer h4{
-        font-size: small;
+    .nosotros{
+        div{
+            margin: 2.5rem;
+            img{
+                height: 15rem;
+            }
+        }
     }
 }

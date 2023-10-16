@@ -34,21 +34,36 @@
         padding: 1.875rem;
         justify-content: center;
         align-items: center;
+        div{
+            width: 40%;
+            padding: 1.25rem;
+            img{
+                width: 80%;
+            }
+            .desc-prod{
+                font-size: medium;
+            }
+            .precio-prod{
+                font-size: small;
+            }
+        }
+        
     }
-    .items div{
-        width: 40%;
-        padding: 1.25rem;
+    
+    .nosotros{
+        div{
+            margin: 1.875rem;
+            img{
+                width: 12.5rem;
+                height: 100%;
+            }
+        }
     }
-    .items img{
-        width: 80%;
+
+    .tienda{
+        grid-template-columns: 1fr 1fr;
     }
-    .nosotros div{
-        margin: 4.375rem;
-    }
-    .nosotros div img{
-        width: 12.5rem;
-        height: 100%;
-    }
+
     .footer h4{
         font-size: large;
     }

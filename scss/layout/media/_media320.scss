@@ -2,4 +2,31 @@
     .barra-nav nav ul li a{
         font-size: small;
     }
+    .items{
+        div{
+            img{
+                width: 80%;
+                height: 5rem;
+            }
+            .desc-prod{
+                font-size: x-small;
+            }
+            .precio-prod{
+                font-size: xx-small;
+            }
+        }
+    }
+    .nosotros{
+        div{
+            margin: .625rem;
+            img{
+                height: 15rem;
+            }
+            p{
+                width: 100%;
+                font-size: small;
+                text-align: center;
+            }
+        }
+    }
 }

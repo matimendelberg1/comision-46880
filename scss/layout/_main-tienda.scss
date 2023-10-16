@@ -1,96 +1,63 @@
+.texto-tienda{
+    width: 100%;
+    height: map-get($tamano, l);
+    font-family: monospace;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: map-get($tamano, l);
+}
 .tienda{
     display: grid;
     width: 100%;
     height: 100%;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    padding: 6.25rem 9.375rem 6.25rem 9.375rem;
-    justify-content: center;
-    gap: 1.25rem;
-    align-items: center;
-}
-
-.texto-tienda{
-    width: 100%;
-    height: 6.25rem;
-    font-family: monospace;
-    font-size: xx-large;
-    text-align: center;
-    padding-top: 6.25rem;
-}
-
-.articulo1{
-    p{
-        font-family: $fuente-tienda;
+    @include grid(1fr 1fr 1fr 1fr, 1fr 1fr, 6.25rem 9.375rem 6.25rem 9.375rem, center, 1.25rem, center);
+    .articulo1{
+        &:hover{
+            transform: scale(1.05);
+        }
+        background-image: linear-gradient(rgb(215, 250, 215), rgb(57, 162, 208), bisque);
+        p{
+            font-family: $fuente-tienda;
+            font-size: medium;
+        }
+        img{
+            width: map-get($tamano, xxxl);
+            height: 15rem;
+            padding: 1.25rem;
+        }
+    } 
+    .articulo2{
+        @extend .articulo1;
+        img{
+            height: 15rem;
+        }
+    }
+    .articulo3{
+        background-image: linear-gradient(rgb(215, 250, 215), rgb(57, 162, 208), bisque);
+        &:hover{
+            transform: scale(1.05);
+        }
         font-size: medium;
+        img{
+            width: map-get($tamano, xxxl);
+            height: 15rem;
+            padding: 1.25rem;
+        }
     }
-    img{
-        width: 12.5rem;
-        padding: 1.25rem;
+    .articulo4{
+        @extend .articulo3;
     }
-} 
-
-.articulo2{
-    font-family: $fuente-tienda;
-    font-size: medium;
-    img{
-        width: 12.5rem;
-        padding: 1.25rem;
+    .articulo5{
+        @extend .articulo3;
     }
-}
-
-.articulo3{
-    font-family: $fuente-tienda;
-    font-size: medium;
-    img{
-        width: 12.5rem;
-        padding: 1.25rem;
+    .articulo6{
+        @extend .articulo3;
+    }
+    .articulo7{
+        @extend .articulo3;
+    }
+    .articulo8{
+        @extend .articulo3;
     }
 }
 
-.articulo4{
-    font-family: $fuente-tienda;
-    font-size: medium;
-    img{
-        width: 12.5rem;
-        padding: 1.25rem;
-    }
-}
-
-.articulo5{
-    font-family: $fuente-tienda;
-    font-size: medium;
-    img{
-        width: 12.5rem;
-        padding: 1.25rem;
-    }
-}
-
-
-.articulo6{
-    font-family: $fuente-tienda;
-    font-size: medium;
-    img{
-        width: 12.5rem;
-        padding: 1.25rem;
-    }
-}
-
-.articulo7{
-    font-family: $fuente-tienda;
-    font-size: medium;
-    img{
-        width: 10.5rem;
-        padding: 1.25rem;
-        
-    }
-}
-
-.articulo8{
-    font-family: $fuente-tienda;
-    font-size: medium;
-    img{
-        width: 12.5rem;
-        padding: 1.25rem;
-    }
-}

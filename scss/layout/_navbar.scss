@@ -1,6 +1,6 @@
 .barra-nav{
     background-color: antiquewhite;
-    height: 6.25rem;
+    height: map-get($tamano, l);
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -17,10 +17,19 @@
             list-style: none;
             li{
                 align-items: center;
+                &:hover{
+                    transform: scale(1.05);
+                }
                 a{
+                    color: rgb(96, 173, 237);
                     text-decoration: none;
+                    list-style: none;
                     font-size: x-large;
-                    
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    &:hover{
+                        color: rgb(11, 71, 118);
+                        transition: color 1s;
+                    }
                 }
             }
         }

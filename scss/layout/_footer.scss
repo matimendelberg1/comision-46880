@@ -1,6 +1,6 @@
 .footer{
     background-color: rgb(173, 248, 223);
-    height: 6.25rem;
+    height: map-get($tamano,l);
     text-align: center;
     h4{
         font-size: x-large;
