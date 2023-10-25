@@ -132,13 +132,13 @@ header {
     text-align: center;
     font-family: fantasy;
     font-size: xx-large;
-    color: bisque; }
+    color: #FFFFFF; }
   .inicio article h3 {
     width: 100%;
     text-align: center;
     font-family: fantasy;
     font-size: x-large;
-    color: bisque; }
+    color: #FFFFFF; }
 
 .items {
   display: flex;
@@ -174,8 +174,11 @@ header {
   width: 100%;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: xx-large;
+  font-size: xxx-large;
   padding-top: 15.625rem; }
+
+.cont-nosotros article {
+  background-color: #ECEAE4; }
 
 .nosotros {
   display: flex;
@@ -197,46 +200,51 @@ header {
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       font-size: large; }
 
-.texto-tienda {
-  width: 100%;
-  height: 6.25rem;
-  font-family: monospace;
-  font-size: xx-large;
-  text-align: center;
-  padding-top: 6.25rem; }
-
-.tienda {
-  display: grid;
-  width: 100%;
-  height: 100%;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  padding: 6.25rem 9.375rem 6.25rem 9.375rem;
-  justify-content: center;
-  gap: 1.25rem;
-  align-items: center; }
-  .tienda .articulo1, .tienda .articulo2 {
-    background-image: linear-gradient(#d7fad7, #39a2d0, bisque); }
-    .tienda .articulo1:hover, .tienda .articulo2:hover {
-      transform: scale(1.05); }
-    .tienda .articulo1 p, .tienda .articulo2 p {
-      font-family: Arial, Helvetica, sans-serif;
+.fondo {
+  background-color: #ECEAE4; }
+  .fondo .texto-tienda {
+    width: 100%;
+    height: 6.25rem;
+    font-family: monospace;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 6.25rem; }
+  .fondo .tienda {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 6.25rem 9.375rem 6.25rem 9.375rem;
+    justify-content: center;
+    gap: 1.25rem;
+    align-items: center; }
+    .fondo .tienda .articulo1, .fondo .tienda .articulo2 {
+      background-image: linear-gradient(#d7fad7, #39a2d0, bisque); }
+      .fondo .tienda .articulo1:hover, .fondo .tienda .articulo2:hover {
+        transform: scale(1.05); }
+      .fondo .tienda .articulo1 p, .fondo .tienda .articulo2 p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        font-weight: bold; }
+      .fondo .tienda .articulo1 img, .fondo .tienda .articulo2 img {
+        width: 12.5rem;
+        height: 15rem;
+        padding: 1.25rem; }
+    .fondo .tienda .articulo2 img {
+      height: 15rem; }
+    .fondo .tienda .articulo3, .fondo .tienda .articulo4, .fondo .tienda .articulo5, .fondo .tienda .articulo6, .fondo .tienda .articulo7, .fondo .tienda .articulo8 {
+      background-image: linear-gradient(#d7fad7, #39a2d0, bisque);
       font-size: medium; }
-    .tienda .articulo1 img, .tienda .articulo2 img {
-      width: 12.5rem;
-      height: 15rem;
-      padding: 1.25rem; }
-  .tienda .articulo2 img {
-    height: 15rem; }
-  .tienda .articulo3, .tienda .articulo4, .tienda .articulo5, .tienda .articulo6, .tienda .articulo7, .tienda .articulo8 {
-    background-image: linear-gradient(#d7fad7, #39a2d0, bisque);
-    font-size: medium; }
-    .tienda .articulo3:hover, .tienda .articulo4:hover, .tienda .articulo5:hover, .tienda .articulo6:hover, .tienda .articulo7:hover, .tienda .articulo8:hover {
-      transform: scale(1.05); }
-    .tienda .articulo3 img, .tienda .articulo4 img, .tienda .articulo5 img, .tienda .articulo6 img, .tienda .articulo7 img, .tienda .articulo8 img {
-      width: 12.5rem;
-      height: 15rem;
-      padding: 1.25rem; }
+      .fondo .tienda .articulo3:hover, .fondo .tienda .articulo4:hover, .fondo .tienda .articulo5:hover, .fondo .tienda .articulo6:hover, .fondo .tienda .articulo7:hover, .fondo .tienda .articulo8:hover {
+        transform: scale(1.05); }
+      .fondo .tienda .articulo3 img, .fondo .tienda .articulo4 img, .fondo .tienda .articulo5 img, .fondo .tienda .articulo6 img, .fondo .tienda .articulo7 img, .fondo .tienda .articulo8 img {
+        width: 12.5rem;
+        height: 15rem;
+        padding: 1.25rem; }
+      .fondo .tienda .articulo3 p, .fondo .tienda .articulo4 p, .fondo .tienda .articulo5 p, .fondo .tienda .articulo6 p, .fondo .tienda .articulo7 p, .fondo .tienda .articulo8 p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold; }
 
 .banner1 {
   background-image: url(../assets/banner-inicio2.jpg);
@@ -247,21 +255,33 @@ header {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: xx-large;
   padding-top: 6.25rem;
-  color: #9b7200; }
+  color: #FFFFFF; }
 
 .boton-desc {
   display: flex;
   justify-content: center;
+  background-color: #007acc;
+  border-color: #007acc;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
   padding-top: 3.125rem;
   padding-bottom: 3.125rem; }
 
+.boton-desc:hover {
+  background-color: #ffae00;
+  border-color: #ffae00; }
+
 .noticia {
-  display: flex;
-  height: 500px; }
+  background-color: #ECEAE4;
+  height: 100vh;
+  margin-right: 0;
+  margin-left: 0; }
 
 .not1 {
-  background-image: url(../assets/noti1.jpeg);
   background-size: cover;
+  background-position: center;
   height: 100%;
   width: 50%;
   font-size: x-large;
@@ -271,7 +291,6 @@ header {
   text-align: center; }
 
 .not2 {
-  background-image: url(../assets/noti2.jpg);
   background-size: cover;
   height: 100%;
   width: 50%;
@@ -280,11 +299,6 @@ header {
   padding-top: 240px;
   color: #4e948a;
   text-align: center; }
-
-.faq {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(4, 1fr); }
 
 .nombre {
   align-items: center;
@@ -298,58 +312,59 @@ header {
     font-size: xx-large;
     text-align: center;
     padding-top: 12.5rem; }
-
-.boton1 {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center; }
-  .boton1 img {
-    width: 6.25rem;
-    height: 6.25rem; }
-  .boton1 p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: large;
-    padding-left: 12.5rem; }
-
-.boton2 {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center; }
-  .boton2 img {
-    width: 6.25rem;
-    height: 6.25rem; }
-  .boton2 p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: large;
-    padding-left: 12.5rem; }
-
-.boton3 {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center; }
-  .boton3 img {
-    width: 6.25rem;
-    height: 6.25rem; }
-  .boton3 p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: large;
-    padding-left: 12.5rem; }
-
-.boton4 {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center; }
-  .boton4 img {
-    width: 6.25rem;
-    height: 6.25rem; }
-  .boton4 p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: large;
-    padding-left: 12.5rem; }
+  .nombre .faq {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    background-color: #ECEAE4;
+    grid-gap: .625rem;
+    align-items: center; }
+    .nombre .faq .boton1 {
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 1.875rem; }
+      .nombre .faq .boton1 img {
+        width: 6.25rem;
+        height: 6.25rem; }
+      .nombre .faq .boton1 p {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: large; }
+    .nombre .faq .boton2 {
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+      align-items: center; }
+      .nombre .faq .boton2 img {
+        width: 6.25rem;
+        height: 6.25rem; }
+      .nombre .faq .boton2 p {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: large; }
+    .nombre .faq .boton3 {
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+      align-items: center; }
+      .nombre .faq .boton3 img {
+        width: 6.25rem;
+        height: 6.25rem; }
+      .nombre .faq .boton3 p {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: large; }
+    .nombre .faq .boton4 {
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+      align-items: center; }
+      .nombre .faq .boton4 img {
+        width: 6.25rem;
+        height: 6.25rem; }
+      .nombre .faq .boton4 p {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: large;
+        padding-left: 2.5rem; }
 
 .barra-nav {
   background-color: antiquewhite;
@@ -388,7 +403,10 @@ header {
   text-align: center; }
   .footer h4 {
     font-size: x-large;
-    align-items: center; }
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2.1875rem; }
 
 @media (max-width: 768px) {
   header {
@@ -433,6 +451,8 @@ header {
       height: 100%; }
   .tienda {
     grid-template-columns: 1fr 1fr; }
+  .banner1 {
+    height: 25rem; }
   .footer h4 {
     font-size: large; } }
 
@@ -478,6 +498,19 @@ header {
         padding-right: 1.875rem; }
   .tienda {
     grid-template-columns: 1fr; }
+  .boton-desc {
+    padding-top: 1.5625rem;
+    padding-bottom: 1.5625rem; }
+  section .noticia {
+    flex-wrap: wrap;
+    flex-direction: row; }
+  .nombre h1 {
+    height: 21.875rem; }
+  .nombre .faq .boton1 img, .nombre .faq .boton2 img, .nombre .faq .boton3 img, .nombre .faq .boton4 img {
+    width: 3.75rem;
+    height: 3.75rem; }
+  .nombre .faq .boton1 p, .nombre .faq .boton2 p, .nombre .faq .boton3 p, .nombre .faq .boton4 p {
+    font-size: medium; }
   .footer h4 {
     font-size: medium; } }
 

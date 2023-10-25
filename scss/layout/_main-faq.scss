@@ -1,8 +1,4 @@
-.faq{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: repeat(4,1fr);
-}
+
 .nombre{
     align-items: center;
     justify-content: center;
@@ -16,60 +12,67 @@
         text-align: center;
         padding-top: map-get($tamano, xxxl);
     }
+    .faq{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+        background-color: $color-fondo;
+        grid-gap: .625rem;
+        align-items: center;
+        .boton1{
+            display: flex;
+            @include flex(100%, space-evenly, center);
+            padding: 1.875rem;
+            img{
+                width: map-get($tamano, l);
+                height: map-get($tamano, l);
+            }
+            p{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: large;
+                ;
+            }
+        }
+        
+        .boton2{
+            display: flex;
+            @include flex(100%, space-evenly, center);
+            img{
+                width: map-get($tamano, l);
+                height: map-get($tamano, l);
+            }
+            p{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: large;
+            }
+        }
+        
+        .boton3{
+            display: flex;
+            @include flex(100%, space-evenly, center);
+            img{
+                width: map-get($tamano, l);
+                height: map-get($tamano, l);
+            }
+            p{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: large;
+            }
+        }
+        
+        .boton4{
+            display: flex;
+            @include flex(100%, space-evenly, center);
+            img{
+                width: map-get($tamano, l);
+                height: map-get($tamano, l);
+            }
+            p{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: large;
+                padding-left: map-get($tamano, sm)
+            }
+        }
+    }
 }
 
-.boton1{
-    display: flex;
-    @include flex(100%, center, center);
-    img{
-        width: map-get($tamano, l);
-        height: map-get($tamano, l);
-    }
-    p{
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: large;
-        padding-left: 12.5rem;
-    }
-}
-
-.boton2{
-    display: flex;
-    @include flex(100%, center, center);
-    img{
-        width: map-get($tamano, l);
-        height: map-get($tamano, l);
-    }
-    p{
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: large;
-        padding-left: map-get($tamano, xxxl);
-    }
-}
-
-.boton3{
-    display: flex;
-    @include flex(100%, center, center);
-    img{
-        width: map-get($tamano, l);
-        height: map-get($tamano, l);
-    }
-    p{
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: large;
-        padding-left: map-get($tamano, xxxl)
-    }
-}
-
-.boton4{
-    display: flex;
-    @include flex(100%, center, center);
-    img{
-        width: map-get($tamano, l);
-        height: map-get($tamano, l);
-    }
-    p{
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: large;
-        padding-left: map-get($tamano, xxxl)
-    }
-}

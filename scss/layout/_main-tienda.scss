@@ -1,63 +1,74 @@
-.texto-tienda{
-    width: 100%;
-    height: map-get($tamano, l);
-    font-family: monospace;
-    font-size: xx-large;
-    text-align: center;
-    padding-top: map-get($tamano, l);
-}
-.tienda{
-    display: grid;
-    width: 100%;
-    height: 100%;
-    @include grid(1fr 1fr 1fr 1fr, 1fr 1fr, 6.25rem 9.375rem 6.25rem 9.375rem, center, 1.25rem, center);
-    .articulo1{
-        &:hover{
-            transform: scale(1.05);
+.fondo{
+    background-color: $color-fondo;
+    .texto-tienda{
+        width: 100%;
+        height: map-get($tamano, l);
+        font-family: monospace;
+        font-size: xx-large;
+        text-align: center;
+        padding-top: map-get($tamano, l);
+        
+    }
+    .tienda{
+        display: grid;
+        width: 100%;
+        height: 100%;
+        @include grid(1fr 1fr 1fr 1fr, 1fr 1fr, 6.25rem 9.375rem 6.25rem 9.375rem, center, 1.25rem, center);
+        .articulo1{
+            &:hover{
+                transform: scale(1.05);
+            }
+            background-image: linear-gradient(rgb(215, 250, 215), rgb(57, 162, 208), bisque);
+            p{
+                font-family: $fuente-tienda;
+                font-size: medium;
+                font-weight: bold;
+            }
+            img{
+                width: map-get($tamano, xxxl);
+                height: 15rem;
+                padding: 1.25rem;
+            }
+        } 
+        .articulo2{
+            @extend .articulo1;
+            img{
+                height: 15rem;
+            }
         }
-        background-image: linear-gradient(rgb(215, 250, 215), rgb(57, 162, 208), bisque);
-        p{
-            font-family: $fuente-tienda;
+        .articulo3{
+            background-image: linear-gradient(rgb(215, 250, 215), rgb(57, 162, 208), bisque);
+            &:hover{
+                transform: scale(1.05);
+            }
             font-size: medium;
+            img{
+                width: map-get($tamano, xxxl);
+                height: 15rem;
+                padding: 1.25rem;
+            }
+            p{
+                font-family: $fuente-tienda;
+                font-weight: bold;
+            }
         }
-        img{
-            width: map-get($tamano, xxxl);
-            height: 15rem;
-            padding: 1.25rem;
+        .articulo4{
+            @extend .articulo3;
         }
-    } 
-    .articulo2{
-        @extend .articulo1;
-        img{
-            height: 15rem;
+        .articulo5{
+            @extend .articulo3;
         }
-    }
-    .articulo3{
-        background-image: linear-gradient(rgb(215, 250, 215), rgb(57, 162, 208), bisque);
-        &:hover{
-            transform: scale(1.05);
+        .articulo6{
+            @extend .articulo3;
         }
-        font-size: medium;
-        img{
-            width: map-get($tamano, xxxl);
-            height: 15rem;
-            padding: 1.25rem;
+        .articulo7{
+            @extend .articulo3;
         }
-    }
-    .articulo4{
-        @extend .articulo3;
-    }
-    .articulo5{
-        @extend .articulo3;
-    }
-    .articulo6{
-        @extend .articulo3;
-    }
-    .articulo7{
-        @extend .articulo3;
-    }
-    .articulo8{
-        @extend .articulo3;
+        .articulo8{
+            @extend .articulo3;
+        }
     }
 }
+
+
 
