@@ -28,6 +28,10 @@
     .inicio article h3{
         font-size: small;
     }
+
+    .fondo .tienda{
+        grid-template-columns: 1fr;
+        }
     .items{
         div{
             img{
@@ -92,7 +96,27 @@
         }
     }
     
+    .noticia .not1{
+        width: 100%;
+        height: 12.5rem;
+        padding: 0;
+        background-size: cover;
+        
+    }
+    .noticia .not1 p{
+        font-size: medium;
+    }
     
+    .noticia .not2{
+        width: 100%;
+        height: 12.5rem;
+        padding: 0;
+        background-size: cover;
+        
+    }
+    .noticia .not2 p{
+        font-size: medium;
+    }
 
     .footer h4{
         font-size: medium;
